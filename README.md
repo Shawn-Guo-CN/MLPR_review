@@ -71,6 +71,7 @@ regression".
    - gradient descent \& cost function; 
  - optimization methods:
    - Estimation-Maximization algorithm;
+   - Newton methods;
  - approximation principles:
    - laplace approximations;
    - variational method \& KL divergence;
