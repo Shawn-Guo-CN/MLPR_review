@@ -29,7 +29,7 @@ In this review, we mainly focus on the following questions in ML systems:
  - How to represent and extract features from samples $\mathbf{x}$;
  - What different kinds of models could be for different types of labels $\mathbf{y}$;
  - How to get best parameters $\mathbf{w}$ for a model;
-   - Strictly speaking, there is no such thins called "parameters" in 
+   - Strictly speaking, there is no such thing called "parameters" in 
     Bayesian methods. We, instead, refer $\mathbf{w}$ to the " the
     parameters of a predictor, and so they are then the variational
     parameters, or whatever description of the posterior over the original
@@ -68,7 +68,7 @@ regression".
  - analytical solution:
    - for linear regression
  - numerical solution:
-   - gradient descent \& cost funciton; 
+   - gradient descent \& cost function; 
  - optimization methods:
    - Estimation-Maximization algorithm;
  - approximation principles:
