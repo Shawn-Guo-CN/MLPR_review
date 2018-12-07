@@ -79,6 +79,9 @@ regression".
    - L1
    - L2
    - early stopping
+   
+> NUMERICAL SOLUTIONS and OPTIMISATION METHODS above are still tangly and I may
+re-organise them in the future.
 
 ### Choosing a model among models
  - held-out validation
