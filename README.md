@@ -1,9 +1,16 @@
 # "A" Review of MLPR (2018)
 
-### COMMENTS
-All the following contents are my personal opinions.
-I'm very glad to share these knowledge and I would really 
-appreciate that if you could give any comments on them.
+### PREFACE
+All the following contents are my personal opinions and I know for sure that some
+content are still confusing/improper. So, I would really 
+appreciate that if you could share your knowledge and give any comment on these 
+topics by Hypothesis. And, of course, you would be always welcome if you want to
+write down something on any topic.
+
+Thanks to Iain for reviewing the draft version of outline.
+
+> I know that the latex is not working on this page. 
+  I'm working on it.
 
 ## Outline
 
@@ -42,6 +49,7 @@ How to extract feature:
  - autoencoder \& PCA;
  - neural networks;
  - gaussian processes;
+   - I may re-organise this part as gaussian processing is disconnected here;
  - kernel tricks;
 
 ### Different Models for different kinds of $\mathbf{y}$: regression \& classification
@@ -51,6 +59,10 @@ Types of labels and corresponding models:
    - linear regression;
  - for discrete $\mathbf{y}$: classification
    - softmax regression;
+
+> It worth mentioning that in logistic regression we also need a linear combination 
+of features. With Iain's suggestion, I replace "logistic regression" with "softmax
+regression".
 
 ### Different methods for getting best parameters for a model
  - analytical solution:
@@ -71,3 +83,5 @@ Types of labels and corresponding models:
  - held-out validation
  - bayesian inference
    - variational inference
+
+> More stuffs are coming.
